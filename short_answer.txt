@@ -1,0 +1,11 @@
+Q1. What’s const-correctness and why is it important?
+A1. Const-correctness is basically making sure that parts of the code that
+ shouldn’t change, actually can’t change. In specific on c++ if something is const, it 
+ means we can’t accidentally modify it. This helps us to prevent bugs and makes 
+ our code safer and easier to understand.
+
+Q2. Is your class const-correct? How do you know?
+A2. Yes, my class is const-correct. I know it is because the methods that 
+only read data (getValue()) are marked as const, which ensures they can’t
+ modify the object. Also, I don’t try to modify const variables, so everything 
+ is in order always.
